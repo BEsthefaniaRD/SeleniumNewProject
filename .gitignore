@@ -38,3 +38,4 @@ hs_err_pid*
 /.settings/
 *.prefs
 .DS_Store
+Selenium New Project/target/classes/dataFiles/data.properties
