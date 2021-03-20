@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>SeleniumNewProject</groupId>
+  <artifactId>SeleniumNewProject</artifactId>
+  <version>1.0</version>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>15</release>
+          <source>1.8</source>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+
+	<!-- Libreria de Selenium -->
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-java</artifactId>
+		<version>4.0.0-alpha-5</version>
+	</dependency>
+
+	<!-- Libreria de TestNG -->
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>7.3.0</version>
+		<scope>test</scope>
+	</dependency>
+
+	<!-- Librerias para leer archivos JSON -->
+	<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+	<dependency>
+		<groupId>com.jayway.jsonpath</groupId>
+		<artifactId>json-path</artifactId>
+		<version>2.4.0</version>
+	</dependency>
+
+	<!-- Librerias para leer archivos excel -->
+	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+	<dependency>
+		<groupId>commons-io</groupId>
+		<artifactId>commons-io</artifactId>
+		<version>2.6</version>
+	</dependency>
+	
+	<!-- Librerias para archivos XML -->
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.12.1</version>
+</dependency>
+  	
+  </dependencies>
+</project>
