@@ -1,1 +1,1 @@
-Este es un archivo exe de chrome
+Aquí debe ir el drive de chrome. exe

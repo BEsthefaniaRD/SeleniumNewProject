@@ -1,1 +1,1 @@
-Este es un archivo exe de opera
+Aquí debe ir el drive de opera.exe
