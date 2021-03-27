@@ -46,8 +46,8 @@ public class seleniumTest {
 		
 		//Tarea
 		//Crear metodo que cree un nombre y numero random
-		driver.findElement(By.cssSelector(""));
-		driver.findElement(By.tagName(""));
+		//driver.findElement(By.cssSelector(""));
+		//driver.findElement(By.tagName(""));
 		
 		//txt_usernameById.sendKeys("Admin");
 		//txt_usernamebyName.clear();
@@ -72,19 +72,13 @@ public class seleniumTest {
 			
 			System.out.println("El login no fue exitoso");
 		}
-		
-		
-		
-		
-		
-	
-		
+				
 				
 	}
 	//Crear metodo que cree un nombre y numero random
-	public String randonNae() {
-		String [] gente = new String[] {"Fani","Luis"};
-		return "";
-	}
+	//public String randonNae() {
+		//String [] gente = new String[] {"Fani","Luis"};
+		//return "";
+	//}
 
 }
