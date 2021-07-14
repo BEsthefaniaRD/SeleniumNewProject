@@ -163,6 +163,4 @@ public class SeleniumTestNG {
 		Reporter.log("Termino el test", true);
 		driver.close();
 	}
-	
-
 }//end class

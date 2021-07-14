@@ -6,12 +6,11 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class LeerProperties {
-	private String systemPropFileName = System.getProperty("user.dir")+"\\src\\main\\resources\\dataFiles\\data.properties";
+	private String systemPropFileName = System.getProperty("user.dir")+"\\src\\main\\resources\\datafiles\\data.properties";
 	private static Properties systemProp = null;
 	private Properties m_properties = new Properties();
 	
-	//Esta solo es una prueba de actualización de comentario en git
-	
+	//Un comentario
 	/**
 	 * @author Sergio
 	 * @date  06/03/2021
@@ -103,6 +102,8 @@ public class LeerProperties {
 	private Properties getProperties() {
 		return m_properties;
 	}
+	
+	
 	
 	
 	

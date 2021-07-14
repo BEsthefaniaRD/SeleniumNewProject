@@ -99,9 +99,4 @@ public class SelenimPageFactory {
 		Assert.assertEquals(text_mensajeDeError.getText(), "Invalid credentials");
 		Reporter.log(text_mensajeDeError.getText(),true);
 	}
-	
-	
-	
-	
-	
 }
